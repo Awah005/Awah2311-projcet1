@@ -1,0 +1,85 @@
+body {
+    background-color: bisque;
+    background-image: url(carnival.jpg);
+    background-size: cover;
+}
+header {
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+h2 {
+    text-decoration: underline;
+    font-weight: bold;
+    color: black;
+}
+.navbar li {
+    display: inline;
+    font-weight: bold;
+    font-style: italic;
+    color: gold;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid black;
+    background-color: blue;
+
+
+}
+.navbar a {
+    text-decoration: none;
+    padding: 20px;
+}
+.navbar a.hover{
+    background-color: aqua;
+
+}
+.welcome h2 {
+    font-style: oblique;
+    color: blue;
+    font-weight: bold;
+}
+p {
+    color: blanchedalmond;
+    font-style: initial;
+    text-decoration: solid;
+}
+.reservation {
+    padding: 20px;
+    margin: 20px;
+}
+.reservation label {
+    color: black;
+    font-weight: bold;
+    font-size: larger;
+    border-radius: 20px;
+    
+}
+.reservation input {
+    color: black;
+    font-weight: bold;
+    font-size: large;
+}
+.reservation input {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+button {
+    background-color: blueviolet;
+    color: brown;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+button:hover {
+    background-color: blanchedalmond;
+}
+footer {
+    background-color: gold;
+    color: blue;
+    text-align: center;
+    font-size: large;
+    padding: 10px;
+}
